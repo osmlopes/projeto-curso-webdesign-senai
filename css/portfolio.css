@@ -1,0 +1,172 @@
+/* Gerais */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #111;
+  }
+  
+  .row {
+    margin: 0;
+  }
+  
+  .container {
+    padding: 70px 0;
+  }
+  
+  p, li {
+    color: #fff;
+    font-size: 14px;
+  }
+
+/*inicio navbar*/
+.navbar-brand img{
+    height: 70px;
+}
+
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0, 0, 0, 0.7)), url(../imagens/fundo-pg-portfolio.jpg);
+    height: 70vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top center;
+    background-repeat: no-repeat;
+   
+    
+    
+}
+header::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 40px;
+    margin-top: 42px;
+    background: linear-gradient(90deg, rgba(242,90,41,1) 0%, rgba(191,30,46,1) 100%);
+}
+
+#nav-container{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+#about h1{
+    font-size: 50px;
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+    margin: 20px auto 20px auto; 
+    text-transform: uppercase;
+    border: 3px solid;
+    display: table;
+    
+    
+    
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding: 1rem, 8rem;
+}
+.navbar .navbar-nav .nav-item .nav-link:link, .navbar .navbar-nav .nav-item .nav-link:visited{
+    color: #fff;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+.navbar .navbar-nav .nav-item .nav-link:hover, .navbar .navbar-nav .nav-item .nav-link:active{
+    color: #f25a29;
+    margin-left: 20px;
+    border-bottom: 2px solid #bf1e2e;
+    transition: border-bottom 0.2s;
+
+}
+
+.navbar-toggler{
+   border: none;
+   background: #bf1e2e;
+}
+/*inicio titulo*/
+
+.main-title{
+    color: #fff;
+    margin: 0 0 65 0;
+    font-size: 40px;
+    text-align: center;
+}
+.main-title::after{
+    content: "";
+    border-top: 2px solid #fff;
+    width: 15%;
+    position: absolute;
+    top: 60px;
+    left: 42.5%;
+}
+/*começod do modal main*/
+
+.galeria{
+    margin: 10px 150px;
+}
+.galeria img{
+    transition: 1s;
+    padding: 15px;
+    width: 200px;
+}
+.galeria img:hover{
+    filter: grayscale(50%);
+    transform: scale(1.1);
+}
+
+
+
+/*fim do modal main */
+/*botao*/
+main .main-btn{
+    background-color: #f25a29;
+    color: #fff;
+    display: block;
+    height: auto;
+    width: 190px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 90px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 2px solid transparent;
+    transition: 1s;  
+
+}
+main .main-btn a{
+    justify-self: center;
+}
+.main-btn:hover{
+    text-decoration: none;
+    color: #fff;
+    background-color: transparent;
+    border-color: #f25a29;
+}
+/*Inicio do rodape*/
+.logo-rodape{
+    padding-top: 50px;
+    margin-top: 0;
+    
+   
+  }
+  .logo-rodape img{
+      height: 70px;
+  }
+  footer p{
+      
+      padding-top: 50px;
+  }
+  .social i{
+      color: #fff;
+      border: 1px solid #fff;
+      padding: 6px;
+      margin: 6px;
+      width: 30px;
+      height: 30px;
+      line-height: 15px;
+      border-radius: 120px;
+  
+  }    
+    footer .container {
+       text-align: center;
+  
+   }
