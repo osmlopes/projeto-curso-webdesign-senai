@@ -83,8 +83,9 @@ header::after{
 .carousel-item {
    
    min-height: 300px;
-   -webkit-background-size: cover;
+ -webkit-background-size: cover;
   background-size: cover;
+  background:no-repeat;
 
 }
 #mainSlider .carousel-inner, #mainSlider .carousel-item img{
